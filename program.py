@@ -4,7 +4,10 @@ def main():
 
 
 def print_header():
-    pass
+    print('-----------------------------')
+    print('      Wizard Game App')
+    print('-----------------------------')
+    print()
 
 
 def game_loop():
