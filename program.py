@@ -11,7 +11,17 @@ def print_header():
 
 
 def game_loop():
-    pass
+    while True:
+        cmd = input('Do you [a]ttack, [r]unaway, or [l]ook around? ')
+        if cmd == 'a':
+            print('attack')
+        elif cmd == 'r':
+            print('run away')
+        elif cmd == 'l':
+            print('look around')
+        else:
+            print('OK, exiting game..... bye!')
+            break
 
 
 if __name__ == '__main__':
